@@ -1,2 +1,6 @@
-# buddy-check-website
-Buddy Check – Before the Doom Scroll is a wellness-focused application designed to help users take back control of their screen time by interrupting compulsive social media use.
+# Buddy Check – Before the Doom Scroll
+
+Mindfully interrupt social media habits before they spiral.  
+This is the official portfolio site for our CS410/CS411W project at ODU.
+
+Stay tuned for project updates, design mockups, and release milestones.
