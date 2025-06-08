@@ -1,0 +1,58 @@
+/* Ocean Diver Theme*/
+
+body {
+    background-color: #011f3f; /* Deep ocean blue */
+    color: #e0f7fa;            /* Soft aqua text */
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: #4dd0e1; /* Bright cyan */
+    text-shadow: 1px 1px #004d40;
+  }
+  
+  /* Links */
+  a {
+    color: #80deea;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #26c6da;
+    text-decoration: underline;
+  }
+  
+  /* Container Style */
+  .container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #006064;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #00838f;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #b2ebf2;
+  }
