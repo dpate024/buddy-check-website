@@ -3,6 +3,10 @@ layout: page
 title: Meet the Team
 ---
 
+[Home](index.md) | [Team](team.md) | [Presentations](presentations.md)
+
+---
+
 ## Team Buddy Check
 
 ### Nicholas Brewster
