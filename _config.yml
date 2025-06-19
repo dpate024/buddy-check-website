@@ -1,3 +1,8 @@
-theme: jekyll-theme-cayman
-title: Buddy Check – Before the Doom Scroll
-description: Helping people reclaim time by interrupting doomscrolling habits.
+title: Buddy Check
+author: Team Bronze
+description: A CS410/411W Project Portfolio
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
