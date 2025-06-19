@@ -1,8 +1,4 @@
 title: Buddy Check
-author: Team Bronze
 description: A CS410/411W Project Portfolio
-theme: minima
+theme: jekyll-theme-cayman
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
