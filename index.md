@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: default
 title: Buddy Check
-subtitle: A mindful solution to stop doomscrolling.
 ---
+
+# Buddy Check
 
 Welcome to **Buddy Check** — a CS 410/411W project focused on reducing screen addiction through mindful app usage and user reflection.
 
