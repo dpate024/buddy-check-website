@@ -10,8 +10,9 @@ title: Meet the Team
 ## Team Buddy Check
 
 ### Nicholas Brewster
-![Nicholas](assets/nicholas.jpg)
-Nicholas is a Computer Science student at ODU focused on research and system design. He contributed to the feasibility study and solution architecture.
+![Nicholas](assets/NicholasBrewster.jpg)
+Nicholas Brewster is a senior at Old Dominion University majoring in computer science with plans to graduate spring 2026. He obtained his Associates of Science degree from Tidewater Community College, graduating Magna Cum Laude, with plans to eventually be a software engineer. In his free time, Nicholas likes to play video games, hang out with friends, and listen to his cat, Ollie, yell for more food.
+
 
 ### Daksh Patel
 ![Daksh](assets/daksh.jpg)
