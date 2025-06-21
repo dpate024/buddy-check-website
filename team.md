@@ -15,5 +15,5 @@ Nicholas Brewster is a senior at Old Dominion University majoring in computer sc
 
 
 ### Daksh Patel
-![Daksh](assets/daksh.jpg)
+<img src="assets/daksh.jpg" alt="Daksh" width="100" />
 Daksh is the technical lead and developer for Buddy Check. He is passionate about building tools that promote healthier screen habits.
