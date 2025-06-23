@@ -43,7 +43,7 @@ title: Meet the Team
 ### Augustine Kpewa
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-  <img src="assets/Augustine.jpeg" alt="Augustine Kpewa" style="width: 150px; border-radius: 10px;" />
+  <img src="assets/Augustine.jpg" alt="Augustine Kpewa" style="width: 150px; border-radius: 10px;" />
   <div>
     <h3>Augustine Kpewa</h3>
     <p>Augustine is a Computer Science senior at Old Dominion University, graduating in Fall 2025, with a focus on software development. He holds an Associate Degree in Computer Science from Northern Virginia Community College, earned in Spring 2023. Skilled in Java, Python, C++, and web development, he is preparing for a career in software engineering. Outside of academics, he enjoys playing soccer and staying active through fitness training.</p>
