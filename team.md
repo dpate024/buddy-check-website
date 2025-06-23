@@ -39,3 +39,13 @@ title: Meet the Team
     <p>Balemual is a senior at Old Dominion University majoring in computer science with a minor in cybersecurity, and he plans to graduate in Fall 2025. He earned his Associate of Science degree from Tidewater Community College in Fall 2023. Balemual is passionate about technology and aims to pursue a career as a software engineer. In his free time, he enjoys playing soccer and hanging out with friends.</p>
   </div>
 </div>
+
+### Augustine Kpewa
+
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
+  <img src="assets/Augustine.jpg" alt="Augustine Kpewa" style="width: 150px; border-radius: 10px;" />
+  <div>
+    <h3>Augustine Kpewa</h3>
+    <p>Augustine is a Computer Science senior at Old Dominion University, graduating in Fall 2025, with a focus on software development. He holds an Associate Degree in Computer Science from Northern Virginia Community College, earned in Spring 2023. Skilled in Java, Python, C++, and web development, he is preparing for a career in software engineering. Outside of academics, he enjoys playing soccer and staying active through fitness training.</p>
+  </div>
+</div>
