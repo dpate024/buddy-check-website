@@ -33,7 +33,7 @@ title: Meet the Team
 ### Balemual Ymamu
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-  <img src="assets/Balemual.heic" alt="Balemual Ymamu" style="width: 150px; border-radius: 10px;" />
+  <img src="assets/Balemual.jpg" alt="Balemual Ymamu" style="width: 150px; border-radius: 10px;" />
   <div>
     <h3>Balemual Ymamu</h3>
     <p>Balemual is a senior at Old Dominion University majoring in computer science with a minor in cybersecurity, and he plans to graduate in Fall 2025. He earned his Associate of Science degree from Tidewater Community College in Fall 2023. Balemual is passionate about technology and aims to pursue a career as a software engineer. In his free time, he enjoys playing soccer and hanging out with friends.</p>
