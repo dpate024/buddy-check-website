@@ -1,7 +1,7 @@
----
 layout: page
 title: Meet the Team
 ---
+
 
 [Home](index.md) | [Team](team.md) | [Presentations](presentations.md)
 
@@ -26,5 +26,16 @@ title: Meet the Team
   <div>
     <h3>Daksh Patel</h3>
     <p>Daksh Patel is a Computer Science student at Old Dominion University and the technical lead for Buddy Check, planning to graduate in December 2025. He previously completed a four-year undergraduate degree in Computer Engineering in Canada, where he developed a solid foundation in both hardware and software principles. Drawing from that experience, Daksh brings a strong background in Java, front-end development, and UI/UX design. His disciplined approach is also shaped by time spent in contributing to his structured work ethic and leadership skills. Aspiring to become a software developer, Daksh is passionate about creating impactful, user-centered applications that help people live more intentional digital lives.</p>
+  </div>
+</div>
+
+
+### Balemual Ymamu
+
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
+  <img src="assets/Balemual.heic" alt="Balemual Ymamu" style="width: 150px; border-radius: 10px;" />
+  <div>
+    <h3>Balemual Ymamu</h3>
+    <p>Balemual is a senior at Old Dominion University majoring in computer science with a minor in cybersecurity, and he plans to graduate in Fall 2025. He earned his Associate of Science degree from Tidewater Community College in Fall 2023. Balemual is passionate about technology and aims to pursue a career as a software engineer. In his free time, he enjoys playing soccer and hanging out with friends.</p>
   </div>
 </div>
