@@ -32,9 +32,9 @@
 </style>
 
 <div class="navbar">
-  <a href="index.md">Home</a>
-  <a href="team.md">Team</a>
-  <a href="presentations.md">Presentations</a>
+  <a href="index.html">Home</a>
+  <a href="team.html">Team</a>
+  <a href="presentations.html">Presentations</a>
 
   <div class="dropdown">
     <span style="cursor:pointer;">Deliverables ▼</span>
