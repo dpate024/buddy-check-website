@@ -19,7 +19,7 @@ The daily process begins when a user opens a listed app or website:
 
 > This daily loop creates intentional moments of decision and breaks the unconscious doomscrolling habit.
 
-![Daily Flow](../assets/solution-flow-daily.png)
+![Daily Flow](../assets/solution-flow-daily.jpg)
 
 ---
 
