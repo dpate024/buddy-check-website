@@ -1,16 +1,49 @@
----
-layout: default
-title: Buddy Check
----
+<style>
+.navbar {
+  display: flex;
+  gap: 1rem;
+  font-weight: bold;
+}
 
-[Home](index.md) | [Team](team.md) | [Presentations](presentations.md) | Deliverables:
-[Overview](deliverables-overview.md), [Process Flow](deliverables-process-flow.md), [MFCD](deliverables-mfcd.md), [Risk Matrix](deliverables-risk-matrix.md), [Competition](deliverables-competition.md)
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  z-index: 1;
+}
 
----
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  display: block;
+  text-decoration: none;
+}
 
-# Buddy Check
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 
-Welcome to **Buddy Check** — a CS 410/411W project focused on reducing screen addiction through mindful app usage and user reflection.
+<div class="navbar">
+  <a href="index.md">Home</a>
+  <a href="team.md">Team</a>
+  <a href="presentations.md">Presentations</a>
 
-Explore our pages to learn more about the problem, our proposed solution, and the team behind it.
+  <div class="dropdown">
+    <span style="cursor:pointer;">Deliverables ▼</span>
+    <div class="dropdown-content">
+      <a href="deliverables-overview.md">Overview</a>
+      <a href="deliverables-process-flow.md">Process Flow</a>
+      <a href="deliverables-mfcd.md">MFCD</a>
+      <a href="deliverables-risk-matrix.md">Risk Matrix</a>
+      <a href="deliverables-competition.md">Competition</a>
+    </div>
+  </div>
+</div>
