@@ -49,3 +49,13 @@ title: Meet the Team
     <p>Augustine is a Computer Science senior at Old Dominion University, graduating in Fall 2025, with a focus on software development. He holds an Associate Degree in Computer Science from Northern Virginia Community College, earned in Spring 2023. Skilled in Java, Python, C++, and web development, he is preparing for a career in software engineering. Outside of academics, he enjoys playing soccer and staying active through fitness training.</p>
   </div>
 </div>
+
+### Dustin Melton-Dobson
+
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
+<img src="assets/DustinDobson.jpg" alt="Dustin Melton-Dobson" style="width: 150px; border-radius: 10px;" />
+  <div>
+    <h3>Dustin Melton-Dobson</h3>
+    <p>Dustin is a senior studying computer science at Old Dominion University.  He holds an associate in computer science from Northern Virginia Community College.  He has a strong java background and a working knowledge of python, c++, and HTML.  In his free time, Dustin enjoys playing competitive golf and walking his dog.</p>
+  </div>
+</div>
