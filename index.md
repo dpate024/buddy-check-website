@@ -39,11 +39,11 @@
   <div class="dropdown">
     <span style="cursor:pointer;">Deliverables ▼</span>
     <div class="dropdown-content">
-      <a href="deliverables-overview.md">Overview</a>
-      <a href="deliverables-process-flow.md">Process Flow</a>
-      <a href="deliverables-mfcd.md">MFCD</a>
-      <a href="deliverables-risk-matrix.md">Risk Matrix</a>
-      <a href="deliverables-competition.md">Competition</a>
+      <a href="deliverables-overview.html">Overview</a>
+      <a href="deliverables-process-flow.html">Process Flow</a>
+      <a href="deliverables-mfcd.html">MFCD</a>
+      <a href="deliverables-risk-matrix.html">Risk Matrix</a>
+      <a href="deliverables-competition.html">Competition</a>
     </div>
   </div>
 </div>
