@@ -3,7 +3,9 @@ layout: default
 title: Buddy Check
 ---
 
-[Home](index.md) | [Team](team.md) | [Presentations](presentations.md)
+[Home](index.md) | [Team](team.md) | [Presentations](presentations.md) | Deliverables:
+[Overview](deliverables-overview.md), [Process Flow](deliverables-process-flow.md), [MFCD](deliverables-mfcd.md), [Risk Matrix](deliverables-risk-matrix.md), [Competition](deliverables-competition.md)
+
 
 ---
 
