@@ -4,9 +4,9 @@ title: Presentations
 ---
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <a href="index.md">Home</a> | 
-  <a href="team.md">Team</a> | 
-  <a href="presentations.md">Presentations</a>
+  <a href="index.html">Home</a> | 
+  <a href="team.html">Team</a> | 
+  <a href="presentations.html">Presentations</a>
 </div>
 
 <hr>
