@@ -21,7 +21,9 @@ These risks deal with data privacy and user trust.
 - **S2**: There's a risk of user tracking data being misused or sold.  
   → *Mitigation*: Implement full encryption and store data locally or in a user-controlled environment.
 
-![Security Risk Matrix](../assets/security-risk.png)
+<img src="assets/security-risk.png" alt="Security Risk Matrix"
+     style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
+
 
 ---
 
@@ -41,7 +43,9 @@ These risks relate to user engagement and satisfaction.
 - **C4**: Some users might uninstall Buddy Check too soon.  
   → *Mitigation*: Encourage gradual behavior change and celebrate small wins.
 
-![Customer Risk Matrix](../assets/customer-risk.png)
+<img src="assets/customer-risk.png" alt="Customer Risk Matrix"
+     style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
+
 
 ---
 
@@ -61,4 +65,6 @@ These focus on development challenges and platform issues.
 - **T4**: App store approvals may delay launch.  
   → *Mitigation*: Prepare early and follow guidelines for each store.
 
-![Technical Risk Matrix](../assets/technical-risk.png)
+<img src="assets/technical-risk.png" alt="Technical Risk Matrix"
+     style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
+
