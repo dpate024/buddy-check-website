@@ -27,6 +27,7 @@ It is not designed to punish users, but to gently **interrupt bad habits**, prom
 - **Settings Delay**: Prevents impulsive unblocking or overuse.
 - **Cross-platform support**: Works across mobile and desktop environments.
 
-![Competition Matrix](../assets/competition-matrix.png)
+<img src="assets/competition-matrix.png" alt="Competition Matrix"
+     style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
 
 > Buddy Check is not about taking control away from users — it's about giving them the tools to **stay in control**.
