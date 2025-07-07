@@ -19,7 +19,8 @@ The daily process begins when a user opens a listed app or website:
 
 > This daily loop creates intentional moments of decision and breaks the unconscious doomscrolling habit.
 
-![Daily Flow](../assets/solution-flow-daily.jpg)
+<img src="assets/solution-flow-daily.png" alt="Daily Flow Diagram"
+     style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
 
 ---
 
@@ -34,4 +35,5 @@ At the end of each week, the app initiates a user reflection process:
 
 > Weekly reflections keep personal goals front and center, helping users develop a more mindful relationship with technology over time.
 
-![Weekly Flow](../assets/solution-flow-weekly.png)
+<img src="assets/solution-flow-weekly.png" alt="Weekly Flow Diagram"
+     style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
