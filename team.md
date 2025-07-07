@@ -1,7 +1,3 @@
-layout: page
-title: Meet the Team
----
-
 
 [Home](index.md) | [Team](team.md) | [Presentations](presentations.md)
 
