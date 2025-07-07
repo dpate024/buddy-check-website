@@ -1,3 +1,16 @@
-theme: jekyll-theme-cayman
+theme: minimal-mistakes-jekyll
 title: Buddy Check – Before the Doom Scroll
-Description: Helping people reclaim time by interrupting doomscrolling habits.
+description: Helping people reclaim time by interrupting doomscrolling habits.
+plugins:
+  - jekyll-feed
+
+nav:
+  - Home: index.md
+  - Team: team.md
+  - Presentations: presentations.md
+  - Deliverables:
+      - Overview: deliverables-overview.md
+      - Process Flow: deliverables-process-flow.md
+      - MFCD: deliverables-mfcd.md
+      - Risk Matrix: deliverables-risk-matrix.md
+      - Competition Matrix: deliverables-competition.md
