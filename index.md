@@ -57,4 +57,18 @@ title: Buddy Check
 
 Welcome to **Buddy Check** — a CS 410/411W project focused on reducing screen addiction through mindful app usage and user reflection.
 
+---
+
+## 🔍 Problem Statement
+
+Despite widespread awareness of the negative impacts of excessive screen use on productivity, mental health, and sleep, most people still struggle to implement lasting behavioral changes.  
+The convenience and design of modern digital platforms promote **habitual doomscrolling**, making it difficult for individuals to break the cycle without external support or intentional intervention.
+
+---
+
+## 💡 Solution Statement
+
+**Buddy Check** is a multi-platform, behavioral tool designed to help people **build healthier screen habits** without giving up social media entirely.  
+It introduces features like time-limited access ("Air Tanks"), Quiet Hours, and reflective prompts that **encourage mindful scrolling**, reduce impulsivity, and give users more control over their time.
+
 Explore our pages to learn more about the problem, our proposed solution, and the team behind it.
