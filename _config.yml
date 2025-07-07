@@ -1,8 +1,10 @@
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 title: Buddy Check – Before the Doom Scroll
 description: Helping people reclaim time by interrupting doomscrolling habits.
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 nav:
   - Home: index.md
