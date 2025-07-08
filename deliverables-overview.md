@@ -1,9 +1,14 @@
 ---
-layout: page
+layout: default
 title: Overview
-parent: Deliverables
-nav_order: 1
 ---
+
+<!-- Optional: Faux Header -->
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; color: white; text-align: center;">
+  <h1 style="margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+</div>
+
 
 <style>
 .navbar {
