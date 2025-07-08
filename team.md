@@ -66,7 +66,7 @@ title: Meet the Team
   <img src="assets/NicholasBrewster.jpg" alt="Nicholas Brewster" style="width: 150px; border-radius: 10px;" />
   <div>
     <h3>Nicholas Brewster</h3>
-    <p>Nicholas Brewster is a senior at Old Dominion University majoring in computer science with plans to graduate in spring 2026. He obtained his Associates of Science degree from Tidewater Community College, graduating Magna Cum Laude, with plans to be a software engineer eventually. In his free time, Nicholas likes to play video games, hang out with friends, listen to his cat, Ollie, and yell for more food.</p>
+    <p>Nicholas Brewster is a senior at Old Dominion University majoring in computer science with plans to graduate in spring 2026. He obtained his Associates of Science degree from Tidewater Community College, graduating Magna Cum Laude, with plans to be a software engineer eventually. In his free time, Nicholas likes to play video games, hang out with friends, listen to his cat, Ollie, yell for more food.</p>
   </div>
 </div>
 
