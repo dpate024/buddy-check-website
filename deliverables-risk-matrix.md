@@ -1,9 +1,12 @@
 ---
-layout: page
-title: Risk Matrices
-parent: Deliverables
-nav_order: 5
+layout: default
+title: Risk Matrix
 ---
+
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
+  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+</div>
 
 <style>
 .navbar {
