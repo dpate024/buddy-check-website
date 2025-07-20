@@ -56,6 +56,10 @@ title: Risk Matrix
       <a href="deliverables-competition.html">Competition</a>
     </div>
   </div>
+<div class="navbar">
+  <a href="glossary.html">Glossary</a>
+  <a href="references.html">References</a>
+ </div>
 </div>
 
 
