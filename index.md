@@ -66,9 +66,28 @@ The convenience and design of modern digital platforms promote **habitual doomsc
 
 ---
 
+## ⚠️ Problem Characteristics
+
+- 🤯 **Impulse Behavior** – Users open apps reflexively during idle moments.
+- ⏰ **No Pauses** – Infinite scroll and autoplay eliminate natural breaks.
+- 💤 **No Quiet Time** – Apps and notifications are available 24/7, disrupting rest.
+- ⚙️ **Instant Changes** – Restrictions can be easily disabled during temptation.
+- 📉 **Low Awareness** – Most users don’t reflect on or track their screen time.
+
+---
+
+
 ## 💡 Solution Statement
 
 **Buddy Check** is a multi-platform, behavioral tool designed to help people **build healthier screen habits** without giving up social media entirely.  
 It introduces features like time-limited access ("Air Tanks"), Quiet Hours, and reflective prompts that **encourage mindful scrolling**, reduce impulsivity, and give users more control over their time.
 
 Explore our pages to learn more about the problem, our proposed solution, and the team behind it.
+
+---
+
+## ✅ Solution Characteristics
+
+- 🧠 **Mindful Scrolling** – Interrupts automatic behavior and supports intentional use.
+- ⏳ **Time Management** – Helps users reclaim time for hobbies, focus, and sleep.
+- ❤️ **Overall Health** – Supports better mood, energy, and self-regulation through improved screen habits.
