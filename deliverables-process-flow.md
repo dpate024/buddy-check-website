@@ -61,7 +61,22 @@ title: Solution Process Flow
 
 # 🔁 Buddy Check Process Flows
 
-## 📅 Daily Flow – Using Buddy Check Day-to-Day
+## 🔄 Process Flow – The Doomscrolling Loop
+
+Even with the best intentions, many people fall into the same destructive pattern when using social media. This flow illustrates the unconscious loop of doomscrolling — from a moment of boredom to guilt and burnout.
+
+Without tools in place to interrupt or reflect, this cycle repeats daily, chipping away at productivity, well-being, and emotional energy.
+
+> Buddy Check is designed specifically to **break this loop** by introducing intentional steps, prompts, and friction at just the right moments.
+
+<img src="assets/process-flow.png" alt="The Doomscrolling Loop Process Flow"
+     style="width: 100%; max-width: 650px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 1rem 0;" />
+
+
+---
+
+
+## 📅 Daily Solution Flow – Using Buddy Check Day-to-Day
 
 The daily process begins when a user opens a listed app or website:
 
@@ -78,7 +93,7 @@ The daily process begins when a user opens a listed app or website:
 
 ---
 
-## 📈 Weekly Flow – Reflecting and Adjusting
+## 📈 Weekly Solution Flow – Reflecting and Adjusting
 
 At the end of each week, the app initiates a user reflection process:
 
