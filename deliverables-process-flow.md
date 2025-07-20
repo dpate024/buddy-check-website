@@ -73,7 +73,7 @@ The daily process begins when a user opens a listed app or website:
 
 > This daily loop creates intentional moments of decision and breaks the unconscious doomscrolling habit.
 
-<img src="assets/solution-flow-daily.png" alt="Daily Flow Diagram"
+<img src="assets/solution-daily-flow-2.0.png" alt="Daily Flow Diagram"
      style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 1rem 0;" />
 
 ---
