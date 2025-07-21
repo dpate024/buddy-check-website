@@ -69,19 +69,23 @@ title: Glossary
 
 .glossary-term {
   margin-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: rgba(0, 180, 216, 0.05);
-  border-left: 4px solid #00bcd4;
+  padding: 1rem 1.5rem;
+  background-color: #072e40; /* Deep readable background */
+  border-left: 4px solid #00e5ff;
   border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 .glossary-term h3 {
   color: #00e5ff;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
 .glossary-term p {
-  color: #e0f7fa;
+  color: #d1f5ff;
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
 }
 </style>
@@ -142,16 +146,12 @@ title: Glossary
     <p>The conscious act of using social platforms with intention, avoiding rabbit holes and passive usage.</p>
   </div>
 
-</div>
-
- <div class="glossary-term">
+  <div class="glossary-term">
     <h3>Weekly Summary</h3>
     <p>A feature that provides users with a report of their screen usage and prompts them to reflect on their behavior.</p>
   </div>
 
-</div>
-
- <div class="glossary-term">
+  <div class="glossary-term">
     <h3>System Flow</h3>
     <p>The underlying decision logic that powers how Buddy Check enforces restrictions and interacts with the user during app usage.</p>
   </div>
