@@ -14,6 +14,13 @@ title: Buddy Check
     color: #333;
   }
 
+  <style>
+  .project-tagline {
+    color: white !important;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+</style>
+
   /* Navigation Bar */
   .navbar {
     display: flex;
