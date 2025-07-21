@@ -49,10 +49,12 @@ title: Buddy Check
 
   .dropdown {
     position: relative;
+    padding-bottom: 2rem;
   }
 
   .dropdown-content {
     display: none;
+    top: 100%;
     position: absolute;
     background-color: white;
     min-width: 180px;
