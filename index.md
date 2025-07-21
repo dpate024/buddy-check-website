@@ -40,6 +40,7 @@ title: Buddy Check
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
   <a href="presentations.html">Presentations</a>
+  <a href="labs.html">Labs</a>
 
   <div class="dropdown">
     <span style="cursor:pointer;">Deliverables ▼</span>
@@ -95,3 +96,10 @@ Explore our pages to learn more about the problem, our proposed solution, and th
 - 🧠 **Mindful Scrolling** – Interrupts automatic behavior and supports intentional use.
 - ⏳ **Time Management** – Helps users reclaim time for hobbies, focus, and sleep.
 - ❤️ **Overall Health** – Supports better mood, energy, and self-regulation through improved screen habits.
+
+
+<hr />
+<footer style="text-align: center; font-size: 0.9rem; padding: 1rem 0; color: #444;">
+  <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a> |
+  <a href="https://www.odu.edu/computer-science" target="_blank">ODU Computer Science Department</a>
+</footer>
