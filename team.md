@@ -38,12 +38,27 @@ title: Meet the Team
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.footer {
+  background-color: #0d1b2a;
+  color: #e0e0e0;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
 </style>
 
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
   <a href="presentations.html">Presentations</a>
+  <div class="dropdown">
+    <span>Labs ▼</span>
+    <div class="dropdown-content">
+      <a href="labs.md">Lab 1 Outline</a>
+    </div>
+  </div>
 
   <div class="dropdown">
     <span style="cursor:pointer;">Deliverables ▼</span>
@@ -114,4 +129,17 @@ title: Meet the Team
     <h3>Dustin Melton-Dobson</h3>
     <p>Dustin is a senior studying computer science at Old Dominion University.  He holds an associate in computer science from Northern Virginia Community College.  He has a strong java background and a working knowledge of python, c++, and HTML.  In his free time, Dustin enjoys playing competitive golf and walking his dog.</p>
   </div>
+
+<!-- FOOTER -->
+<div class="footer">
+  © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
+</div>
+
+
+<hr />
+<footer style="text-align: center; font-size: 0.9rem; padding: 1rem 0; color: #444;">
+  <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a> |
+  <a href="https://www.odu.edu/computer-science" target="_blank">ODU Computer Science Department</a>
+</footer>
+
 </div>
