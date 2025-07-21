@@ -98,7 +98,7 @@ title: Labs
   <div class="dropdown">
     <span>Labs ▼</span>
     <div class="dropdown-content">
-      <a href="labs.md">Lab 1 Outline</a>
+      <a href="labs.html">Lab 1 Outline</a>
     </div>
   </div>
 
