@@ -3,15 +3,34 @@ layout: default
 title: Meet the Team
 ---
 
-<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
-  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
-  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+<!-- Hero Banner -->
+<div style="background: linear-gradient(to right, #006064, #00acc1); padding: 3rem 1rem; text-align: center; color: white; border-radius: 0 0 12px 12px;">
+  <h1 style="margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem;">Helping people reclaim time by interrupting doomscrolling habits.</p>
 </div>
+
+<!-- Navigation -->
 <style>
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #002b36;
   font-weight: bold;
+}
+
+.navbar a, .dropdown span {
+  color: #e0f7fa;
+  text-decoration: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.navbar a:hover, .dropdown span:hover {
+  background-color: #004d4d;
+  border-radius: 4px;
 }
 
 .dropdown {
@@ -22,30 +41,25 @@ title: Meet the Team
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #004d4d;
   min-width: 200px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 10px 14px;
   display: block;
   text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown-content a:hover {
+  background-color: #006666;
 }
 
-.footer {
-  background-color: #0d1b2a;
-  color: #e0e0e0;
-  padding: 1rem 2rem;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 3rem;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 </style>
 
@@ -56,12 +70,11 @@ title: Meet the Team
   <div class="dropdown">
     <span>Labs ▼</span>
     <div class="dropdown-content">
-      <a href="labs.md">Lab 1 Outline</a>
+      <a href="labs.html">Lab 1 Outline</a>
     </div>
   </div>
-
   <div class="dropdown">
-    <span style="cursor:pointer;">Deliverables ▼</span>
+    <span>Deliverables ▼</span>
     <div class="dropdown-content">
       <a href="deliverables-overview.html">Overview</a>
       <a href="deliverables-process-flow.html">Process Flow</a>
@@ -70,76 +83,110 @@ title: Meet the Team
       <a href="deliverables-competition.html">Competition</a>
     </div>
   </div>
-<div class="navbar">
   <a href="glossary.html">Glossary</a>
   <a href="references.html">References</a>
- </div>
 </div>
 
----
+<!-- Team Card Styling -->
+<style>
+.team-section {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
 
-## Team Buddy Check
+.member {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,255,255,0.08);
+}
 
-### Nicholas Brewster
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-  <img src="assets/NicholasBrewster.jpg" alt="Nicholas Brewster" style="width: 150px; border-radius: 10px;" />
+.member img {
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.member h3 {
+  margin-top: 0;
+  color: #4dd0e1;
+}
+
+.member p {
+  margin-top: 0.5rem;
+  color: #e0f7fa;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .member img {
+    margin-bottom: 1rem;
+  }
+}
+</style>
+
+<!-- Team Section -->
+<div class="team-section">
+
+<div class="member">
+  <img src="assets/NicholasBrewster.jpg" alt="Nicholas Brewster" />
   <div>
     <h3>Nicholas Brewster</h3>
-    <p>Nicholas Brewster is a senior at Old Dominion University majoring in computer science with plans to graduate in spring 2026. He obtained his Associates of Science degree from Tidewater Community College, graduating Magna Cum Laude, with plans to be a software engineer eventually. In his free time, Nicholas likes to play video games, hang out with friends, listen to his cat, Ollie, yell for more food.</p>
+    <p>Nicholas is a senior at Old Dominion University majoring in computer science and plans to graduate in Spring 2026. He earned his Associate of Science from Tidewater Community College with Magna Cum Laude honors. He aims to become a software engineer. In his free time, he enjoys gaming and spending time with his cat, Ollie.</p>
   </div>
 </div>
 
-
-
-### Daksh Patel
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-  <img src="assets/daksh.jpg" alt="Daksh Patel" style="width: 150px; border-radius: 10px;" />
+<div class="member">
+  <img src="assets/daksh.jpg" alt="Daksh Patel" />
   <div>
     <h3>Daksh Patel</h3>
-    <p>Daksh Patel is a Computer Science student at Old Dominion University and the technical lead for Buddy Check, planning to graduate in December 2025. He previously completed a four-year undergraduate degree in Computer Engineering in Canada, where he developed a solid foundation in both hardware and software principles. Drawing from that experience, Daksh brings a strong background in Java, front-end development, and UI/UX design. His disciplined approach is also shaped by time spent in contributing to his structured work ethic and leadership skills. Aspiring to become a software developer, Daksh is passionate about creating impactful, user-centered applications that help people live more intentional digital lives.</p>
+    <p>Daksh is a Computer Science student at ODU graduating in December 2025. With a prior degree in Computer Engineering from Canada, he's the technical lead for Buddy Check. His strengths lie in Java, front-end design, and UI/UX. He's passionate about building tools that encourage healthy digital habits.</p>
   </div>
 </div>
 
-
-### Balemual Ymamu
-
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-  <img src="assets/Balemual.jpg" alt="Balemual Ymamu" style="width: 150px; border-radius: 10px;" />
+<div class="member">
+  <img src="assets/Balemual.jpg" alt="Balemual Ymamu" />
   <div>
     <h3>Balemual Ymamu</h3>
-    <p>Balemual is a senior at Old Dominion University majoring in computer science with a minor in cybersecurity, and he plans to graduate in Fall 2025. He earned his Associate of Science degree from Tidewater Community College in Fall 2023. Balemual is passionate about technology and aims to pursue a career as a software engineer. In his free time, he enjoys playing soccer and hanging out with friends.</p>
+    <p>Balemual is a senior at ODU majoring in CS with a cybersecurity minor, set to graduate in Fall 2025. He earned an Associate of Science from Tidewater Community College. He's passionate about software engineering and enjoys soccer and socializing in his spare time.</p>
   </div>
 </div>
 
-### Augustine Kpewa
-
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-<img src="assets/AugustineKpewa.jpg" alt="Augustine Kpewa" style="width: 150px; border-radius: 10px;" />
+<div class="member">
+  <img src="assets/AugustineKpewa.jpg" alt="Augustine Kpewa" />
   <div>
     <h3>Augustine Kpewa</h3>
-    <p>Augustine is a Computer Science senior at Old Dominion University, graduating in Fall 2025, with a focus on software development. He holds an Associate Degree in Computer Science from Northern Virginia Community College, earned in Spring 2023. Skilled in Java, Python, C++, and web development, he is preparing for a career in software engineering. Outside of academics, he enjoys playing soccer and staying active through fitness training.</p>
+    <p>Augustine is a CS senior at ODU, graduating in Fall 2025. He holds an Associate Degree in CS from Northern Virginia Community College. He's proficient in Java, Python, C++, and web development. Outside of class, he enjoys soccer and fitness.</p>
   </div>
 </div>
 
-### Dustin Melton-Dobson
-
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px;">
-<img src="assets/DustinDobson.jpg" alt="Dustin Melton-Dobson" style="width: 150px; border-radius: 10px;" />
+<div class="member">
+  <img src="assets/DustinDobson.jpg" alt="Dustin Melton-Dobson" />
   <div>
     <h3>Dustin Melton-Dobson</h3>
-    <p>Dustin is a senior studying computer science at Old Dominion University.  He holds an associate in computer science from Northern Virginia Community College.  He has a strong java background and a working knowledge of python, c++, and HTML.  In his free time, Dustin enjoys playing competitive golf and walking his dog.</p>
+    <p>Dustin is a CS senior at ODU with an associate degree in CS from NOVA. He’s skilled in Java and has working knowledge of Python, C++, and HTML. He enjoys golf and walking his dog in his free time.</p>
   </div>
+</div>
 
-<!-- FOOTER -->
-<div class="footer">
+</div>
+
+<!-- Footer -->
+<div style="background-color: #0d1b2a; color: #e0e0e0; padding: 1rem 2rem; text-align: center; font-size: 0.9rem; margin-top: 3rem;">
   © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
 </div>
 
-
-<hr />
 <footer style="text-align: center; font-size: 0.9rem; padding: 1rem 0; color: #444;">
   <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a> |
   <a href="https://www.odu.edu/computer-science" target="_blank">ODU Computer Science Department</a>
 </footer>
-
-</div>
