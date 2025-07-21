@@ -169,12 +169,24 @@ title: Buddy Check
   }
 </style>
 
-<!-- NAVIGATION -->
+<!-- NAVIGATION BAR -->
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
-  <a href="presentations.html">Presentations</a>
-  <a href="labs.html">Labs</a>
+  <div class="dropdown">
+    <span>Presentations ▼</span>
+    <div class="dropdown-content">
+      <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
+      <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
+      <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <span>Labs ▼</span>
+    <div class="dropdown-content">
+      <a href="labs.html">Lab 1 Outline</a>
+    </div>
+  </div>
   <div class="dropdown">
     <span>Deliverables ▼</span>
     <div class="dropdown-content">
