@@ -76,8 +76,10 @@ title: Labs
 .lab-container p {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #e0f7fa;
+  color: #0de0f0; /* Sharper aqua-blue text */
+  font-weight: 500;
 }
+
 
 .lab-container iframe {
   width: 100%;
