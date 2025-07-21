@@ -193,7 +193,6 @@ title: Buddy Check
 <div class="hero">
   <h1>Welcome to Buddy Check</h1>
   <p>Reduce doomscrolling. Boost well-being. Reclaim your time.</p>
-  <a href="features.html" class="button">Explore Features</a>
 </div>
 
 <!-- MAIN CONTENT -->
