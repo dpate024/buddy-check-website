@@ -8,11 +8,27 @@ title: Labs
   display: flex;
   gap: 1rem;
   font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.navbar a, .dropdown > span {
+  text-decoration: none;
+  color: #0077cc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 5px;
+}
+
+.navbar a:hover, .dropdown:hover > span {
+  background-color: #e0f7ff;
 }
 
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -22,6 +38,8 @@ title: Labs
   min-width: 200px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
   z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .dropdown-content a {
@@ -31,19 +49,59 @@ title: Labs
   text-decoration: none;
 }
 
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Lab Content */
+.lab-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+.lab-container h2 {
+  text-align: center;
+  color: #4dd0e1;
+  margin-bottom: 1rem;
+}
+
+.lab-container p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #e0f7fa;
+}
+
+.lab-container iframe {
+  width: 100%;
+  height: 800px;
+  border: 2px solid #4dd0e1;
+  border-radius: 8px;
+}
 </style>
 
+<!-- NAVIGATION -->
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
   <a href="presentations.html">Presentations</a>
-  <a href="labs.html">Labs</a>
 
   <div class="dropdown">
-    <span style="cursor:pointer;">Deliverables ▼</span>
+    <span>Labs ▼</span>
+    <div class="dropdown-content">
+      <a href="labs.md">Lab 1 Outline</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span>Deliverables ▼</span>
     <div class="dropdown-content">
       <a href="deliverables-overview.html">Overview</a>
       <a href="deliverables-process-flow.html">Process Flow</a>
@@ -52,18 +110,28 @@ title: Labs
       <a href="deliverables-competition.html">Competition</a>
     </div>
   </div>
-<div class="navbar">
+
   <a href="glossary.html">Glossary</a>
   <a href="references.html">References</a>
- </div>
 </div>
 
----
+<!-- LAB CONTENT -->
+<div class="lab-container">
+  <h2>Lab 1 – Outline Document</h2>
 
-## 📄 View Lab Outline (Google Doc)
+  <p>The document below outlines all major lab sessions and technical tasks completed during the development of Buddy Check.</p>
 
-<p style="text-align: center; margin-bottom: 1rem;">
-  The document below outlines all major lab sessions and technical tasks completed during the development of Buddy Check.
-</p>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSp_vy_aJgktg7NzktndOsbLV8ySU85lN932RJ_QY3gO_2h7J_fRN8bz0Tv6XlVC8BRGzZsina9BeZM/pub?embedded=true"></iframe>
+</div>
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vSp_vy_aJgktg7NzktndOsbLV8ySU85lN932RJ_QY3gO_2h7J_fRN8bz0Tv6XlVC8BRGzZsina9BeZM/pub?embedded=true"></iframe>
+<!-- FOOTER -->
+<div class="footer">
+  © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
+</div>
+
+
+<hr />
+<footer style="text-align: center; font-size: 0.9rem; padding: 1rem 0; color: #444;">
+  <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a> |
+  <a href="https://www.odu.edu/computer-science" target="_blank">ODU Computer Science Department</a>
+</footer>
