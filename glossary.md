@@ -3,21 +3,32 @@ layout: default
 title: Glossary
 ---
 
-<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
-  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
-  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
-</div>
-
 <style>
 .navbar {
   display: flex;
   gap: 1rem;
   font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.navbar a, .dropdown > span {
+  text-decoration: none;
+  color: #0077cc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 5px;
+}
+
+.navbar a:hover, .dropdown:hover > span {
+  background-color: #e0f7ff;
 }
 
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -27,6 +38,8 @@ title: Glossary
   min-width: 200px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
   z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .dropdown-content a {
@@ -36,18 +49,58 @@ title: Glossary
   text-decoration: none;
 }
 
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Glossary Style */
+.glossary-container {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+.glossary-term {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(0, 180, 216, 0.05);
+  border-left: 4px solid #00bcd4;
+  border-radius: 6px;
+}
+
+.glossary-term h3 {
+  color: #00e5ff;
+  margin-bottom: 0.5rem;
+}
+
+.glossary-term p {
+  color: #e0f7fa;
+  margin: 0;
+}
 </style>
 
+<!-- NAVIGATION -->
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
   <a href="presentations.html">Presentations</a>
 
   <div class="dropdown">
-    <span style="cursor:pointer;">Deliverables ▼</span>
+    <span>Labs ▼</span>
+    <div class="dropdown-content">
+      <a href="labs.md">Lab 1 Outline</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <span>Deliverables ▼</span>
     <div class="dropdown-content">
       <a href="deliverables-overview.html">Overview</a>
       <a href="deliverables-process-flow.html">Process Flow</a>
@@ -56,48 +109,63 @@ title: Glossary
       <a href="deliverables-competition.html">Competition</a>
     </div>
   </div>
-<div class="navbar">
+
   <a href="glossary.html">Glossary</a>
   <a href="references.html">References</a>
- </div>
 </div>
 
----
+<!-- GLOSSARY CONTENT -->
+<div class="glossary-container">
 
-# 📖 Glossary
+  <div class="glossary-term">
+    <h3>Doomscrolling</h3>
+    <p>The compulsive consumption of negative news or content, often leading to stress, anxiety, and loss of time.</p>
+  </div>
 
-**Air Tanks**  
-A metaphor used by Buddy Check to limit screen time. Each Air Tank represents a scrolling session, and users are given a limited number per day. Once used, the app/site is blocked until the next day.
+  <div class="glossary-term">
+    <h3>Air Tank</h3>
+    <p>A time-limited access system in Buddy Check that lets users use social media in bursts, then forces breaks.</p>
+  </div>
 
-**Breathing Breaks**  
-Gentle pop-up reminders that appear after extended scrolling. They prompt users to pause, reflect, and consider ending their session.
+  <div class="glossary-term">
+    <h3>Reflection Prompt</h3>
+    <p>A feature that encourages users to pause and consider why they opened an app or how they’re feeling.</p>
+  </div>
 
-**Buddy Check**  
-The name of the app and system. Inspired by diving safety, it represents a digital check-in tool that helps users build healthier scrolling habits.
+  <div class="glossary-term">
+    <h3>Quiet Hours</h3>
+    <p>Scheduled times where social media is blocked or limited to support better sleep and focus.</p>
+  </div>
 
-**Doomscrolling**  
-The compulsive habit of continuously consuming negative news or content online, often leading to anxiety, sleep disruption, and emotional burnout.
+  <div class="glossary-term">
+    <h3>Mindful Scrolling</h3>
+    <p>The conscious act of using social platforms with intention, avoiding rabbit holes and passive usage.</p>
+  </div>
 
-**Impulse Behavior**  
-The automatic action of opening apps or sites without conscious thought, often during idle moments or boredom.
+</div>
 
-**Mindful Scrolling**  
-An intentional and reflective approach to screen use where the user is aware of their time and attention.
+ <div class="glossary-term">
+    <h3>Weekly Summary</h3>
+    <p>A feature that provides users with a report of their screen usage and prompts them to reflect on their behavior.</p>
+  </div>
 
-**Quiet Hours**  
-User-defined time periods where distracting apps are blocked, and notifications are silenced, especially during sleep or focus times.
+</div>
 
-**Reflection Prompt**  
-A feature in Buddy Check that encourages users to assess their screen habits weekly and set goals for improvement.
+ <div class="glossary-term">
+    <h3>System Flow</h3>
+    <p>The underlying decision logic that powers how Buddy Check enforces restrictions and interacts with the user during app usage.</p>
+  </div>
 
-**Settings Delay**  
-A feature that prevents users from impulsively changing app restrictions. Changes require time and a second confirmation to take effect.
+</div>
 
-**Screen Time Goals**  
-Personal limits or objectives that users set to reduce their time spent on specific apps or categories of content.
+<!-- FOOTER -->
+<div class="footer">
+  © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
+</div>
 
-**System Flow**  
-The underlying decision logic that powers how Buddy Check enforces restrictions and interacts with the user during app usage.
 
-**Weekly Summary**  
-A feature that provides users with a report of their screen usage and prompts them to reflect on their behavior.
+<hr />
+<footer style="text-align: center; font-size: 0.9rem; padding: 1rem 0; color: #444;">
+  <a href="https://www.odu.edu/" target="_blank">Old Dominion University</a> |
+  <a href="https://www.odu.edu/computer-science" target="_blank">ODU Computer Science Department</a>
+</footer>
