@@ -4,21 +4,21 @@ title: Meet the Team
 ---
 
 <!-- Hero Banner -->
-<div style="background: linear-gradient(to right, #006064, #00acc1); padding: 3rem 1rem; text-align: center; color: white; border-radius: 0 0 12px 12px;">
-  <h1 style="margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
-  <p style="font-size: 1.1rem;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
+  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
 </div>
 
-<!-- Navigation -->
+<!-- Navigation Bar -->
 <style>
 .navbar {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
-  padding: 1rem;
-  background-color: #002b36;
   font-weight: bold;
+  background-color: #002b36;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .navbar a, .dropdown span {
@@ -61,6 +61,15 @@ title: Meet the Team
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.footer {
+  background-color: #0d1b2a;
+  color: #e0e0e0;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
 </style>
 
 <div class="navbar">
@@ -87,102 +96,97 @@ title: Meet the Team
   <a href="references.html">References</a>
 </div>
 
-<!-- Team Card Styling -->
+<!-- Team Members Section -->
 <style>
 .team-section {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 3rem auto;
   padding: 0 1rem;
 }
 
 .member {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
-  background: rgba(255,255,255,0.03);
-  border-radius: 12px;
+  background: #e0f7fa;
+  border-left: 6px solid #00bcd4;
   padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,255,255,0.08);
+  border-radius: 8px;
 }
 
 .member img {
-  width: 160px;
+  width: 150px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
 .member h3 {
-  margin-top: 0;
-  color: #4dd0e1;
+  margin: 0;
+  color: #007c91;
 }
 
 .member p {
   margin-top: 0.5rem;
-  color: #e0f7fa;
+  color: #004d4d;
   line-height: 1.6;
 }
 
 @media (max-width: 700px) {
   .member {
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
-
   .member img {
     margin-bottom: 1rem;
   }
 }
 </style>
 
-<!-- Team Section -->
 <div class="team-section">
-
-<div class="member">
-  <img src="assets/NicholasBrewster.jpg" alt="Nicholas Brewster" />
-  <div>
-    <h3>Nicholas Brewster</h3>
-    <p>Nicholas is a senior at Old Dominion University majoring in computer science and plans to graduate in Spring 2026. He earned his Associate of Science from Tidewater Community College with Magna Cum Laude honors. He aims to become a software engineer. In his free time, he enjoys gaming and spending time with his cat, Ollie.</p>
+  <div class="member">
+    <img src="assets/NicholasBrewster.jpg" alt="Nicholas Brewster">
+    <div>
+      <h3>Nicholas Brewster</h3>
+      <p>Nicholas is a senior at Old Dominion University majoring in computer science and plans to graduate in Spring 2026. He earned his Associate of Science from Tidewater Community College with Magna Cum Laude honors. He aims to become a software engineer. In his free time, he enjoys gaming and spending time with his cat, Ollie.</p>
+    </div>
   </div>
-</div>
 
-<div class="member">
-  <img src="assets/daksh.jpg" alt="Daksh Patel" />
-  <div>
-    <h3>Daksh Patel</h3>
-    <p>Daksh is a Computer Science student at ODU graduating in December 2025. With a prior degree in Computer Engineering from Canada, he's the technical lead for Buddy Check. His strengths lie in Java, front-end design, and UI/UX. He's passionate about building tools that encourage healthy digital habits.</p>
+  <div class="member">
+    <img src="assets/daksh.jpg" alt="Daksh Patel">
+    <div>
+      <h3>Daksh Patel</h3>
+      <p>Daksh is a Computer Science student at ODU graduating in December 2025. With a prior degree in Computer Engineering from Canada, he's the technical lead for Buddy Check. His strengths lie in Java, front-end design, and UI/UX. He's passionate about building tools that encourage healthy digital habits.</p>
+    </div>
   </div>
-</div>
 
-<div class="member">
-  <img src="assets/Balemual.jpg" alt="Balemual Ymamu" />
-  <div>
-    <h3>Balemual Ymamu</h3>
-    <p>Balemual is a senior at ODU majoring in CS with a cybersecurity minor, set to graduate in Fall 2025. He earned an Associate of Science from Tidewater Community College. He's passionate about software engineering and enjoys soccer and socializing in his spare time.</p>
+  <div class="member">
+    <img src="assets/Balemual.jpg" alt="Balemual Ymamu">
+    <div>
+      <h3>Balemual Ymamu</h3>
+      <p>Balemual is a senior at ODU majoring in CS with a cybersecurity minor, set to graduate in Fall 2025. He earned an Associate of Science from Tidewater Community College. He's passionate about software engineering and enjoys soccer and socializing in his spare time.</p>
+    </div>
   </div>
-</div>
 
-<div class="member">
-  <img src="assets/AugustineKpewa.jpg" alt="Augustine Kpewa" />
-  <div>
-    <h3>Augustine Kpewa</h3>
-    <p>Augustine is a CS senior at ODU, graduating in Fall 2025. He holds an Associate Degree in CS from Northern Virginia Community College. He's proficient in Java, Python, C++, and web development. Outside of class, he enjoys soccer and fitness.</p>
+  <div class="member">
+    <img src="assets/AugustineKpewa.jpg" alt="Augustine Kpewa">
+    <div>
+      <h3>Augustine Kpewa</h3>
+      <p>Augustine is a CS senior at ODU, graduating in Fall 2025. He holds an Associate Degree in CS from Northern Virginia Community College. He's proficient in Java, Python, C++, and web development. Outside of class, he enjoys soccer and fitness.</p>
+    </div>
   </div>
-</div>
 
-<div class="member">
-  <img src="assets/DustinDobson.jpg" alt="Dustin Melton-Dobson" />
-  <div>
-    <h3>Dustin Melton-Dobson</h3>
-    <p>Dustin is a CS senior at ODU with an associate degree in CS from NOVA. He’s skilled in Java and has working knowledge of Python, C++, and HTML. He enjoys golf and walking his dog in his free time.</p>
+  <div class="member">
+    <img src="assets/DustinDobson.jpg" alt="Dustin Melton-Dobson">
+    <div>
+      <h3>Dustin Melton-Dobson</h3>
+      <p>Dustin is a CS senior at ODU with an associate degree in CS from NOVA. He’s skilled in Java and has working knowledge of Python, C++, and HTML. He enjoys golf and walking his dog in his free time.</p>
+    </div>
   </div>
-</div>
-
 </div>
 
 <!-- Footer -->
-<div style="background-color: #0d1b2a; color: #e0e0e0; padding: 1rem 2rem; text-align: center; font-size: 0.9rem; margin-top: 3rem;">
+<div class="footer">
   © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
 </div>
 
