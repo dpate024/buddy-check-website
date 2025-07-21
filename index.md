@@ -5,6 +5,13 @@ title: Buddy Check
 
 <!-- Page Styles -->
 <style>
+  .project-tagline {
+    color: white !important;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+</style>
+
+<style>
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -13,13 +20,6 @@ title: Buddy Check
     background-color: #ffffff;
     color: #333;
   }
-
-  <style>
-  .project-tagline {
-    color: white !important;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-  }
-</style>
 
   /* Navigation Bar */
   .navbar {
