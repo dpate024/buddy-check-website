@@ -1,6 +1,9 @@
 theme: jekyll-theme-cayman
 title: Buddy Check – Before the Doom Scroll
-description: Helping people reclaim time by interrupting doomscrolling habits.
+<p style="color: #ffffff; font-weight: 400;">
+  description: Helping people reclaim time by interrupting doomscrolling habits.
+</p>
+
 
 
 nav:
