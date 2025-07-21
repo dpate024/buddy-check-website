@@ -169,6 +169,37 @@ title: Labs
       box-shadow: none;
     }
   }
+
+/* Lab Content */
+.lab-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+.lab-container h2 {
+  text-align: center;
+  color: #4dd0e1;
+  margin-bottom: 1rem;
+}
+
+.lab-container p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0de0f0; /* Sharper aqua-blue text */
+  font-weight: 500;
+}
+
+
+.lab-container iframe {
+  width: 100%;
+  height: 800px;
+  border: 2px solid #4dd0e1;
+  border-radius: 8px;
+}
 </style>
 
 <!-- NAVIGATION BAR -->
