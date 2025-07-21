@@ -14,6 +14,15 @@ body {
     color: #4dd0e1; /* Bright cyan */
     text-shadow: 1px 1px #004d40;
   }
+
+.project-tagline {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Optional: add glow for contrast */
+}
+
+.page-header {
+  background-color: #005672 !important;
+}
   
   /* Links */
   a {
