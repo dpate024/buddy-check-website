@@ -3,82 +3,7 @@ layout: default
 title: Overview
 ---
 
-<!-- Page Styles -->
-<style>
-  .project-tagline {
-    color: white !important;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-  }
-</style>
-
-<style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #ffffff;
-    color: #333;
-  }
-
-  /* Navigation Bar */
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    gap: 1.2rem;
-    font-weight: 600;
-  }
-
-  .navbar a, .dropdown > span {
-    text-decoration: none;
-    color: #0077cc;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.2s ease;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .navbar a:hover, .dropdown:hover > span {
-    background-color: #e6f2ff;
-  }
-
-  .dropdown {
-    position: relative;
-    padding-bottom: 2rem;
-  }
-
-  .dropdown-content {
-    display: none;
-    top: 100%;
-    position: absolute;
-    background-color: white;
-    min-width: 180px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    z-index: 1000;
-    top: 2.5rem;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
-  .dropdown-content a {
-    display: block;
-    padding: 0.75rem 1rem;
-    color: #333;
-    text-decoration: none;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #f0f8ff;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }<!-- HEADER SECTION -->
+<!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
   <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
   <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
@@ -136,19 +61,6 @@ title: Overview
 }
 
  
-
-  /* Footer */
-  .footer {
-    background-color: #0d1b2a;
-    color: #e0e0e0;
-    padding: 1rem 2rem;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 3rem;
-  }
-
- 
-
 
   /* Footer */
   .footer {
