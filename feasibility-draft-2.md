@@ -4,70 +4,55 @@ title: Feasibility Draft 2
 ---
 
 <style>
-  body {
-    background-color: #011f3f;
-    color: #e0f7fa;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;    
+  flex-wrap: nowrap;
+  background-color: #0d1b2a;
+  padding: 1rem 2.5rem;           
+  font-size: 1rem;
+                    
+}
 
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #001a33;
-    padding: 1rem 2rem;
-    gap: 1.2rem;
-    font-weight: 600;
-  }
+.navbar a, .dropdown > span {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
 
-  .navbar a,
-  .dropdown > span {
-    text-decoration: none;
-    color: #4dd0e1;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.2s ease;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.navbar a:hover, .dropdown:hover > span {
+  background-color: #1e5799;
+}
 
-  .navbar a:hover,
-  .dropdown:hover > span {
-    background-color: #004466;
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  .dropdown {
-    position: relative;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  z-index: 10;
+  border-radius: 6px;
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #002b4d;
-    min-width: 180px;
-    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.1);
-    z-index: 1000;
-    top: 2.5rem;
-    border-radius: 5px;
-    overflow: hidden;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  display: block;
+  text-decoration: none;
+}
 
-  .dropdown-content a {
-    display: block;
-    padding: 0.75rem 1rem;
-    color: #e0f7fa;
-    text-decoration: none;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #00334d;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
   .hero {
     background: linear-gradient(to right, #1e5799, #2ecc71);
