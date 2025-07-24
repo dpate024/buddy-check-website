@@ -94,12 +94,19 @@ title: Glossary
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
-  <a href="presentations.html">Presentations</a>
+  <div class="dropdown">
+    <span>Presentations ▼</span>
+    <div class="dropdown-content">
+      <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
+      <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
+      <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+    </div>
+  </div>
 
   <div class="dropdown">
     <span>Labs ▼</span>
     <div class="dropdown-content">
-      <a href="labs.md">Lab 1 Outline</a>
+      <a href="labs.html">Lab 1 Outline</a>
     </div>
   </div>
 
