@@ -15,20 +15,18 @@ title: References
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;              
-  gap: 1.5rem;                    
+  gap: 2rem;                      
   background-color: #0d1b2a;
-  padding: 1rem 2rem;
-  overflow-x: auto;               
-  white-space: nowrap;
+  padding: 1.2rem 3rem;           
 }
 
 .navbar a, .dropdown > span {
   color: #ffffff;
   text-decoration: none;
-  padding: 0.6rem 1rem;
-  border-radius: 5px;
+  padding: 0.8rem 1.2rem;         
+  border-radius: 6px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.05rem;             
 }
 
 .navbar a:hover, .dropdown:hover > span {
@@ -47,7 +45,7 @@ title: References
   min-width: 200px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
   z-index: 10;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .dropdown-content a {
