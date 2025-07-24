@@ -3,32 +3,40 @@ layout: default
 title: Glossary
 ---
 
+<!-- HEADER SECTION -->
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
+  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+</div>
+
 <style>
 .navbar {
   display: flex;
-  gap: 1rem;
-  font-weight: bold;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1rem;
-  background-color: #f9f9f9;
+  align-items: center;
+  justify-content: flex-start;    
+  flex-wrap: nowrap;
+  background-color: #0d1b2a;
+  padding: 1rem 2.5rem;           
+  font-size: 1rem;
+                    
 }
 
 .navbar a, .dropdown > span {
+  color: #ffffff;
   text-decoration: none;
-  color: #0077cc;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+  padding: 0.6rem 1rem;
   border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 .navbar a:hover, .dropdown:hover > span {
-  background-color: #e0f7ff;
+  background-color: #1e5799;
 }
 
 .dropdown {
   position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -37,9 +45,8 @@ title: Glossary
   background-color: white;
   min-width: 200px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-  z-index: 1;
-  border-radius: 5px;
-  overflow: hidden;
+  z-index: 10;
+  border-radius: 6px;
 }
 
 .dropdown-content a {
@@ -49,44 +56,8 @@ title: Glossary
   text-decoration: none;
 }
 
-.dropdown-content a:hover {
-  background-color: #f2f2f2;
-}
-
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-/* Glossary Style */
-.glossary-container {
-  max-width: 850px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
-}
-
-.glossary-term {
-  margin-bottom: 1.5rem;
-  padding: 1rem 1.5rem;
-  background-color: #072e40; /* Deep readable background */
-  border-left: 4px solid #00e5ff;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
-
-.glossary-term h3 {
-  color: #00e5ff;
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.glossary-term p {
-  color: #d1f5ff;
-  font-size: 1rem;
-  line-height: 1.5;
-  margin: 0;
 }
 </style>
 
