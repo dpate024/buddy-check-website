@@ -18,7 +18,7 @@ title: References
   background-color: #0d1b2a;
   padding: 1rem 2.5rem;           
   font-size: 1rem;
-  gap: 1.5rem;                    
+                    
 }
 
 .navbar a, .dropdown > span {
