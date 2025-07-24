@@ -91,6 +91,16 @@ title: Glossary
   line-height: 1.5;
   margin: 0;
 }
+
+ /* Footer */
+  .footer {
+    background-color: #0d1b2a;
+    color: #e0e0e0;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
 </style>
 
 <!-- NAVIGATION -->
