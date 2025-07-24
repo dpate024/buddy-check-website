@@ -13,20 +13,21 @@ title: References
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: flex-start;    
   flex-wrap: nowrap;
   background-color: #0d1b2a;
-  padding: 1rem 4rem;             
-  font-size: 1.05rem;
+  padding: 1rem 2.5rem;           
+  font-size: 1rem;
+  gap: 1.5rem;                    
 }
 
 .navbar a, .dropdown > span {
   color: #ffffff;
   text-decoration: none;
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 5px;
   font-weight: bold;
-  white-space: nowrap;            
+  white-space: nowrap;
 }
 
 .navbar a:hover, .dropdown:hover > span {
@@ -59,7 +60,6 @@ title: References
   display: block;
 }
 </style>
-
 
 <div class="navbar">
   <a href="index.html">Home</a>
