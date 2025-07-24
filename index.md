@@ -59,7 +59,6 @@ title: Buddy Check
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>
 
   /* Content Section */
   .content {
