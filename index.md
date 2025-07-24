@@ -60,36 +60,7 @@ title: Buddy Check
   display: block;
 }
 
-  /* Content Section */
-  .content {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1.2rem;
-  }
-
-  h2 {
-    color: #005c99;
-    margin-top: 2rem;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  ul li {
-    margin-bottom: 0.8rem;
-    padding-left: 1.2rem;
-    position: relative;
-  }
-
-  ul li::before {
-    content: "•";
-    color: #007acc;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-  }
+ 
 
   /* Footer */
   .footer {
@@ -101,21 +72,7 @@ title: Buddy Check
     margin-top: 3rem;
   }
 
-  @media screen and (max-width: 600px) {
-    .hero h1 {
-      font-size: 2rem;
-    }
-
-    .navbar {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    .dropdown-content {
-      position: static;
-      box-shadow: none;
-    }
-  }
+ 
 </style>
 
 <!-- NAVIGATION BAR -->
