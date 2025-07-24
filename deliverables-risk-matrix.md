@@ -3,146 +3,64 @@ layout: default
 title: Risk Matrix
 ---
 
-<!-- Page Styles -->
-<style>
-  .project-tagline {
-    color: white !important;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-  }
-</style>
+<!-- HEADER SECTION -->
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
+  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+</div>
 
 <style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #ffffff;
-    color: #333;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;    
+  flex-wrap: nowrap;
+  background-color: #0d1b2a;
+  padding: 1rem 2.5rem;           
+  font-size: 1rem;
+                    
+}
 
-  /* Navigation Bar */
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    gap: 1.2rem;
-    font-weight: 600;
-  }
+.navbar a, .dropdown > span {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
 
-  .navbar a, .dropdown > span {
-    text-decoration: none;
-    color: #0077cc;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.2s ease;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.navbar a:hover, .dropdown:hover > span {
+  background-color: #1e5799;
+}
 
-  .navbar a:hover, .dropdown:hover > span {
-    background-color: #e6f2ff;
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  .dropdown {
-    position: relative;
-    padding-bottom: 2rem;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  z-index: 10;
+  border-radius: 6px;
+}
 
-  .dropdown-content {
-    display: none;
-    top: 100%;
-    position: absolute;
-    background-color: white;
-    min-width: 180px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    z-index: 1000;
-    top: 2.5rem;
-    border-radius: 5px;
-    overflow: hidden;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  display: block;
+  text-decoration: none;
+}
 
-  .dropdown-content a {
-    display: block;
-    padding: 0.75rem 1rem;
-    color: #333;
-    text-decoration: none;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  .dropdown-content a:hover {
-    background-color: #f0f8ff;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  /* Hero Section */
-  .hero {
-    background: linear-gradient(to right, #d6f0ff, #f3faff);
-    padding: 4rem 2rem;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
-    color: #005c99;
-  }
-
-  .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
-
-  .button {
-    display: inline-block;
-    background-color: #007acc;
-    color: white;
-    padding: 0.9rem 1.5rem;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
-  }
-
-  .button:hover {
-    background-color: #005c99;
-  }
-
-  /* Content Section */
-  .content {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1.2rem;
-  }
-
-  h2 {
-    color: #005c99;
-    margin-top: 2rem;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  ul li {
-    margin-bottom: 0.8rem;
-    padding-left: 1.2rem;
-    position: relative;
-  }
-
-  ul li::before {
-    content: "•";
-    color: #007acc;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-  }
+ 
 
   /* Footer */
   .footer {
@@ -154,21 +72,7 @@ title: Risk Matrix
     margin-top: 3rem;
   }
 
-  @media screen and (max-width: 600px) {
-    .hero h1 {
-      font-size: 2rem;
-    }
-
-    .navbar {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-
-    .dropdown-content {
-      position: static;
-      box-shadow: none;
-    }
-  }
+ 
 </style>
 
 <!-- NAVIGATION BAR -->
