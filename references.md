@@ -9,23 +9,26 @@ title: References
   <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
 </div>
 
-<!-- NAVIGATION -->
 <style>
 .navbar {
   display: flex;
-  gap: 1rem;
-  font-weight: bold;
-  background-color: #0d1b2a;
-  padding: 1rem;
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;              
+  gap: 1.5rem;                    
+  background-color: #0d1b2a;
+  padding: 1rem 2rem;
+  overflow-x: auto;               
+  white-space: nowrap;
 }
 
 .navbar a, .dropdown > span {
   color: #ffffff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .navbar a:hover, .dropdown:hover > span {
@@ -41,9 +44,9 @@ title: References
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 180px;
+  min-width: 200px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-  z-index: 1;
+  z-index: 10;
   border-radius: 5px;
 }
 
@@ -62,12 +65,19 @@ title: References
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="team.html">Team</a>
-  <a href="presentations.html">Presentations</a>
+  <div class="dropdown">
+    <span>Presentations ▼</span>
+    <div class="dropdown-content">
+      <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
+      <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
+      <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+    </div>
+  </div>
 
   <div class="dropdown">
     <span>Labs ▼</span>
     <div class="dropdown-content">
-      <a href="labs.md">Lab 1 Outline</a>
+      <a href="labs.html">Lab 1 Outline</a>
     </div>
   </div>
 
