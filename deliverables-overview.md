@@ -78,71 +78,64 @@ title: Overview
 
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  }<!-- HEADER SECTION -->
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
+  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
+  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
+</div>
 
-  /* Hero Section */
-  .hero {
-    background: linear-gradient(to right, #d6f0ff, #f3faff);
-    padding: 4rem 2rem;
-    text-align: center;
-  }
+<style>
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;    
+  flex-wrap: nowrap;
+  background-color: #0d1b2a;
+  padding: 1rem 2.5rem;           
+  font-size: 1rem;
+                    
+}
 
-  .hero h1 {
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
-    color: #005c99;
-  }
+.navbar a, .dropdown > span {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
 
-  .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
+.navbar a:hover, .dropdown:hover > span {
+  background-color: #1e5799;
+}
 
-  .button {
-    display: inline-block;
-    background-color: #007acc;
-    color: white;
-    padding: 0.9rem 1.5rem;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  .button:hover {
-    background-color: #005c99;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  z-index: 10;
+  border-radius: 6px;
+}
 
-  /* Content Section */
-  .content {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1.2rem;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  display: block;
+  text-decoration: none;
+}
 
-  h2 {
-    color: #005c99;
-    margin-top: 2rem;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  ul li {
-    margin-bottom: 0.8rem;
-    padding-left: 1.2rem;
-    position: relative;
-  }
-
-  ul li::before {
-    content: "•";
-    color: #007acc;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-  }
+ 
 
   /* Footer */
   .footer {
@@ -154,21 +147,20 @@ title: Overview
     margin-top: 3rem;
   }
 
-  @media screen and (max-width: 600px) {
-    .hero h1 {
-      font-size: 2rem;
-    }
+ 
 
-    .navbar {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
 
-    .dropdown-content {
-      position: static;
-      box-shadow: none;
-    }
+  /* Footer */
+  .footer {
+    background-color: #0d1b2a;
+    color: #e0e0e0;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
   }
+
+ 
 </style>
 
 <!-- NAVIGATION BAR -->
@@ -217,6 +209,13 @@ The convenience and design of modern digital platforms promote habitual doomscro
 Buddy Check is a multi-platform, behavioral tool designed to help people build healthier screen habits without giving up social media entirely.
 It introduces features like time-limited access ("Air Tanks"), Quiet Hours, and reflective prompts that encourage mindful scrolling, reduce impulsivity, and give users more control over their time.
 
+## Solution Characteristics
+- Air Tank system
+- Weekly reflections
+- Quiet Hours
+- Settings delay
+- Breathing Breaks
+
 <!-- FOOTER -->
 <div class="footer">
   © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
@@ -230,9 +229,3 @@ It introduces features like time-limited access ("Air Tanks"), Quiet Hours, and 
 </footer>
 
 
-## Solution Characteristics
-- Air Tank system
-- Weekly reflections
-- Quiet Hours
-- Settings delay
-- Breathing Breaks
