@@ -112,7 +112,7 @@ title: Design Draft 3
 
 <!-- HERO SECTION -->
 <div class="content-card">
-  <p>Embed or summarize your Design Draft 3 content here.</p>
+  <p>The final design draft presents a complete and polished design system for Buddy Check. It includes finalized UI mockups, updated navigation flows, refined user stories (including personalization and partner functionality), and a clear technical roadmap. This draft positions the team to begin implementation with a confident, user-centered strategy.</p>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ45VKEbL-LhsY798vKyhdKGX7xVjDvOvQFdKKxrcn9Kiny7ky_m1EyavOa2G4p5A/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
