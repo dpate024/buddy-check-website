@@ -112,7 +112,7 @@ title: Design Draft 1
 
 <!-- HERO SECTION -->
 <div class="content-card">
-  <p>Embed or summarize your Design Draft 1 content here.</p>
+  <p>The first design draft focused on defining the core problem and exploring potential solutions. It introduced Buddy Check’s mission to reduce doomscrolling through behavioral tools like Quiet Hours and Air Tanks. This draft outlined early UI concepts, initial feature prioritization, and user personas to ground development in real-world needs.</p>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vROF3t0qB42NpKsq6X0iNqMt79Q-bJWcMSaAEGNPecQLpKzP-2pvYZK75T338ejUw/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
