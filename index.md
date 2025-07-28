@@ -104,6 +104,9 @@ title: Buddy Check
       <a href="deliverables-mfcd.html">MFCD</a>
       <a href="deliverables-risk-matrix.html">Risk Matrix</a>
       <a href="deliverables-competition.html">Competition</a>
+      <a href="deliverables-user-roles.html">User Roles & Stories</a>
+      <a href="deliverables-ui-mockups.html">UI Mockups</a>
+      <a href="deliverables-algorithms.html">Algorithm Flows</a>
     </div>
   </div>
   <a href="glossary.html">Glossary</a>
