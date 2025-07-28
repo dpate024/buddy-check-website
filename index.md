@@ -85,6 +85,9 @@ title: Buddy Check
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
   <div class="dropdown">
@@ -137,11 +140,11 @@ title: Buddy Check
   </p>
 
   <h2>✅ Solution Characteristics</h2>
-  <ul>
-    <li>🧠 <strong>Mindful Scrolling</strong> – Interrupts automatic behavior and supports intentional use.</li>
-    <li>⏳ <strong>Time Management</strong> – Helps users reclaim time for hobbies, focus, and sleep.</li>
-    <li>❤️ <strong>Overall Health</strong> – Supports better mood, energy, and self-regulation through improved screen habits.</li>
-  </ul>
+<ul>
+  <li>🧠 <strong>Mindful Scrolling</strong> – Encourages users to pause and make intentional choices instead of reflexively opening apps.</li>
+  <li>⏳ <strong>Time Management</strong> – Helps users reclaim time for hobbies, sleep, and focus by raising awareness of digital habits.</li>
+  <li>❤️ <strong>Overall Health & Goal Setting</strong> – Supports better energy, sleep, and mood while helping users set and track personal goals.</li>
+</ul>
 </div>
 
 <!-- FOOTER -->
