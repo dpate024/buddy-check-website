@@ -112,7 +112,7 @@ title: Design Draft 2
 
 <!-- HERO SECTION -->
 <div class="content-card">
-  <p>Embed or summarize your Design Draft 2 content here.</p>
+  <p>Building on the foundation from Draft 1, this version refined the app's architecture and technical components. It detailed how features like reflections, tracking, and partner support would interact. The team introduced a more structured UI mockup, began aligning features with user stories, and identified necessary APIs to support future development.</p>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTKFJlLpAKyJesVswoLVIWgX_KiW_M9nWwpvy9aLKI0s2GaP6y8p5yMterDd-fkhw/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
