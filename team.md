@@ -1,7 +1,3 @@
----
-layout: default
-title: Meet the Team
----
 
 <!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
@@ -81,6 +77,9 @@ title: Meet the Team
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
   <div class="dropdown">
