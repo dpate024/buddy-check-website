@@ -115,13 +115,11 @@
   <h3>👤 User</h3>
   <p><strong>Role:</strong> Individuals looking to reduce screen time, set goals, and improve digital wellbeing using reflective, mindful tools.</p>
   <p><strong>User Story:</strong> “As a User, I want to set a personal goal like better sleep so the app can track my progress and offer reflections.”</p>
-  <img src="assets/user-sleep-goal.png" alt="User Sleep Goal Screen" style="width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1); margin-bottom: 2rem;">
-
+  
   <h3>🤝 Partner</h3>
   <p><strong>Role:</strong> A trusted friend or family member who offers support and motivation. Partners can be invited to help the user stay accountable.</p>
   <p><strong>User Story:</strong> “As a Partner, I want to join a challenge with my friend so we can both improve our focus and stick to shared goals.”</p>
-  <img src="assets/partner-support.png" alt="Partner Motivation View" style="width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1); margin-bottom: 2rem;">
-
+  
   <h3>👨‍💻 Developer</h3>
   <p><strong>Role:</strong> Maintains and enhances platform functionality. Ensures data sync, Air Tank logic, and reflection algorithms work across platforms.</p>
   <p><strong>User Story:</strong> “As a Developer, I want to log performance stats so we can measure usage trends and fine-tune future features.”</p>
