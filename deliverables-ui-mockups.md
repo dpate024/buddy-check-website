@@ -100,6 +100,9 @@
       <a href="deliverables-mfcd.html">MFCD</a>
       <a href="deliverables-risk-matrix.html">Risk Matrix</a>
       <a href="deliverables-competition.html">Competition</a>
+      <a href="deliverables-user-roles.html">User Roles & Stories</a>
+      <a href="deliverables-ui-mockups.html">UI Mockups</a>
+      <a href="deliverables-algorithms.html">Algorithm Flows</a>
     </div>
   </div>
   <a href="glossary.html">Glossary</a>
@@ -108,15 +111,25 @@
 
 <!-- MAIN CONTENT -->
 <div class="content-card">
-  <p>These mockups demonstrate the finalized UI screens for Buddy Check, developed in Design Iteration 3. The designs focus on goal-setting, reflection prompts, and reducing doomscrolling through clean, guided user flow.</p>
+  <p>The following mockups illustrate key screen designs from Buddy Check, focusing on usability and minimal distraction. These visuals were finalized in Design Iteration 3 and reflect real-time behavior support for users, partners, and reflections.</p>
 
   <h3>📱 Preview Screens</h3>
-  <ul>
-    <li>Home screen with quiet hours toggle and air tank meter</li>
-    <li>Reflection prompt modal for daily or weekly feedback</li>
-    <li>Partner support screen for group motivation</li>
-  </ul>
-  </div>
+
+  <p><strong>Welcome & Sign-In:</strong> Introduces users to Buddy Check and leads them into personalized setup. Clean layout and branding help the user feel at ease immediately.</p>
+  <img src="assets/UI_welcomescreen.png" alt="Welcome and Sign-In Screen" style="width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+
+  <p><strong>Settings, Goals, and App Selection:</strong> Lets users define sleep, productivity, and social wellness targets while configuring Air Tank app limits. Personal control is a core theme here.</p>
+  <img src="assets/UI_Settinggoals.png" alt="Settings, Goal Setup, Add App Screens" style="width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+
+  <p><strong>Weekly Reflections & Break Prompts:</strong> Helps users assess their mood and goal success weekly. Also includes an intervention screen when doomscrolling is detected to gently suggest better choices.</p>
+  <img src="assets/UI_WeeklyReflection.png" alt="Weekly Reflection & Breathing Break Screens" style="width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+
+  <p><strong>Dashboards & Visual Progress:</strong> Gives users a sense of momentum through daily usage tracking, goal snapshots, and tank availability. Visual charts keep motivation clear and tangible.</p>
+  <img src="assets/UI_Dashboard1.png" alt="Dashboard Overview Screens" style="width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+
+  <p><strong>Screen Time Breakdown:</strong> Final screens give insight into individual app usage over time. This reinforces awareness and supports behavior change based on real data.</p>
+  <img src="assets/UI_Dashboard2.png" alt="Progress, Usage and Screen Time Stats" style="width: 100%; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+</div>
 
 <!-- FOOTER -->
 <div class="footer">
