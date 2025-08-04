@@ -1,14 +1,3 @@
----
-layout: default
-title: Competition Matrix
----
-
-<!-- HEADER SECTION -->
-<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
-  <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
-  <p style="font-size: 1.1rem; color: white; margin-top: 0;">Helping people reclaim time by interrupting doomscrolling habits.</p>
-</div>
-
 <style>
 .navbar {
   display: flex;
@@ -84,6 +73,9 @@ title: Competition Matrix
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
   <div class="dropdown">
