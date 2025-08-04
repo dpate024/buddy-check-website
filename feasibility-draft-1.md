@@ -1,8 +1,3 @@
----
-layout: default
-title: Feasibility Draft 1
----
-
 <style>
 .navbar {
   display: flex;
@@ -99,6 +94,24 @@ title: Feasibility Draft 1
       box-shadow: none;
     }
   }
+
+  .download-btn {
+  background-color: #007acc;
+  color: white;
+  padding: 0.85rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn:hover {
+  background-color: #005c99;
+  transform: translateY(-2px);
+}
 </style>
 
 <!-- NAVIGATION BAR -->
@@ -111,6 +124,9 @@ title: Feasibility Draft 1
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
   <div class="dropdown">
@@ -142,8 +158,14 @@ title: Feasibility Draft 1
 <!-- MAIN CONTENT -->
 <div class="content">
   <p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQa3dvt7ZC-2RKfb3VeuE9Xf4SM8lW0IIHX6MvoH5Dimc16ObHt8MAIy358yJpNwYN0Jhd-MwKDPmc/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+  
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="https://docs.google.com/presentation/d/15RbT0i14hY3cESxwR_GxW3p6vfEYfe_7-Ju_9MFzvNk/edit?usp=sharing" target="_blank" class="download-btn">
+  ⬇️ Download Feasibility Draft 1 (PPTX)
+</a>
 </div>
 
+</div>
 <!-- FOOTER -->
 <div class="footer">
   © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
