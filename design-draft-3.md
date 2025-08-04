@@ -1,8 +1,3 @@
----
-layout: default
-title: Design Draft 3
----
-
 <!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
   <h1 style="color: white; margin-bottom: 0.5rem;">Design Draft 3</h1>
@@ -72,7 +67,23 @@ title: Design Draft 3
     margin-top: 3rem;
   }
 
- 
+ .download-btn {
+  background-color: #007acc;
+  color: white;
+  padding: 0.85rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn:hover {
+  background-color: #005c99;
+  transform: translateY(-2px);
+} 
 </style>
 
 <!-- NAVIGATION BAR -->
@@ -113,7 +124,12 @@ title: Design Draft 3
 <!-- HERO SECTION -->
 <div class="content-card">
   <p>The final design draft presents a complete and polished design system for Buddy Check. It includes finalized UI mockups, updated navigation flows, refined user stories (including personalization and partner functionality), and a clear technical roadmap. This draft positions the team to begin implementation with a confident, user-centered strategy.</p>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ45VKEbL-LhsY798vKyhdKGX7xVjDvOvQFdKKxrcn9Kiny7ky_m1EyavOa2G4p5A/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ45VKEbL-LhsY798vKyhdKGX7xVjDvOvQFdKKxrcn9Kiny7ky_m1EyavOa2G4p5A/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="https://docs.google.com/presentation/d/1_K6Yb2OQvkFp4oMcWpV-Ty_6j5eOnFkH/edit?usp=sharing&ouid=100610542316782603345&rtpof=true&sd=true" target="_blank" class="download-btn">
+  ⬇️ Download Design Draft 3 (PPTX)
+</a>
 </div>
 
 <!-- FOOTER -->
