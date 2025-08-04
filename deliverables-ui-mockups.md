@@ -1,7 +1,3 @@
----
-layout: default
-title: UI Mockups
----
 
 <!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
