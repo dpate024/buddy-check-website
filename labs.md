@@ -1,8 +1,3 @@
----
-layout: default
-title: Labs
----
-
 <!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
   <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
@@ -103,6 +98,24 @@ title: Labs
   border: 2px solid #4dd0e1;
   border-radius: 8px;
 }
+
+ .download-btn {
+  background-color: #007acc;
+  color: white;
+  padding: 0.85rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn:hover {
+  background-color: #005c99;
+  transform: translateY(-2px);
+}
 </style>
 
 <!-- NAVIGATION BAR -->
@@ -115,6 +128,9 @@ title: Labs
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
   <div class="dropdown">
@@ -144,6 +160,12 @@ title: Labs
   <p>The document below outlines all major lab sessions and technical tasks completed during the development of Buddy Check.</p>
 
   <iframe src="https://docs.google.com/document/d/e/2PACX-1vSp_vy_aJgktg7NzktndOsbLV8ySU85lN932RJ_QY3gO_2h7J_fRN8bz0Tv6XlVC8BRGzZsina9BeZM/pub?embedded=true"></iframe>
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="https://docs.google.com/document/d/1oNyM-FZ-XvsNm0oqlcqb9PY9Njfb2f6ConTtQ81dYFE/edit?usp=sharing" target="_blank" class="download-btn">
+  ⬇️ Download Lab Outline (DOCX)
+</a>
+</div>
 </div>
 
 <!-- FOOTER -->
