@@ -1,3 +1,8 @@
+<!-- HEADER SECTION -->
+<div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
+  <h1 style="color: white; margin-bottom: 0.5rem;">Competition Matrix</h1>
+  </div>
+
 <style>
 .navbar {
   display: flex;
@@ -92,6 +97,9 @@
       <a href="deliverables-mfcd.html">MFCD</a>
       <a href="deliverables-risk-matrix.html">Risk Matrix</a>
       <a href="deliverables-competition.html">Competition</a>
+      <a href="deliverables-user-roles.html">User Roles & Stories</a>
+      <a href="deliverables-ui-mockups.html">UI Mockups</a>
+      <a href="deliverables-algorithms.html">Algorithm Flows</a>
     </div>
   </div>
   <a href="glossary.html">Glossary</a>
