@@ -1,8 +1,3 @@
----
-layout: default
-title: Glossary
----
-
 <!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
   <h1 style="color: white; margin-bottom: 0.5rem;">Buddy Check – Before the Doom Scroll</h1>
@@ -113,6 +108,9 @@ title: Glossary
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
 
@@ -176,6 +174,21 @@ title: Glossary
     <p>The underlying decision logic that powers how Buddy Check enforces restrictions and interacts with the user during app usage.</p>
   </div>
 
+  <div class="glossary-term">
+    <h3>IDE</h3>
+    <p> Integrated Development Environment (e.g., VS Code).</p>
+  </div>
+
+  <div class="glossary-term">
+    <h3>MySQL</h3>
+    <p> A relational database used to store user data.</p>
+  </div>
+
+<div class="glossary-term">
+    <h3>UI/UX</h3>
+    <p> User Interface / User Experience, the look and usability of the application.</p>
+  </div>
+  
 </div>
 
 <!-- FOOTER -->
