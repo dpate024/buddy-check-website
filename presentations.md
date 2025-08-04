@@ -1,7 +1,3 @@
----
-layout: default
-title: Presentation
----
 
 <!-- Page Styles -->
 <style>
@@ -181,6 +177,9 @@ title: Presentation
       <a href="feasibility-draft-1.html">Feasibility Draft 1</a>
       <a href="feasibility-draft-2.html">Feasibility Draft 2</a>
       <a href="feasibility-draft-3.html">Feasibility Draft 3</a>
+      <a href="design-draft-1.html">Design Draft 1</a>
+      <a href="design-draft-2.html">Design Draft 2</a>
+      <a href="design-draft-3.html">Design Draft 3</a>
     </div>
   </div>
   <div class="dropdown">
