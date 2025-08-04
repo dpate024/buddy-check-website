@@ -1,7 +1,3 @@
----
-layout: default
-title: Design Draft 1
----
 
 <!-- HEADER SECTION -->
 <div style="background: linear-gradient(to right, #1e5799, #2ecc71); padding: 2rem 1rem; text-align: center; border-radius: 4px 4px 0 0;">
@@ -71,8 +67,24 @@ title: Design Draft 1
     font-size: 0.9rem;
     margin-top: 3rem;
   }
+  
+.download-btn {
+  background-color: #007acc;
+  color: white;
+  padding: 0.85rem 1.6rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
 
- 
+.download-btn:hover {
+  background-color: #005c99;
+  transform: translateY(-2px);
+} 
 </style>
 
 <!-- NAVIGATION BAR -->
@@ -110,10 +122,18 @@ title: Design Draft 1
   <a href="references.html">References</a>
 </div>
 
+----
+
 <!-- HERO SECTION -->
 <div class="content-card">
   <p>The first design draft focused on defining the core problem and exploring potential solutions. It introduced Buddy Check’s mission to reduce doomscrolling through behavioral tools like Quiet Hours and Air Tanks. This draft outlined early UI concepts, initial feature prioritization, and user personas to ground development in real-world needs.</p>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vROF3t0qB42NpKsq6X0iNqMt79Q-bJWcMSaAEGNPecQLpKzP-2pvYZK75T338ejUw/pubembed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vROF3t0qB42NpKsq6X0iNqMt79Q-bJWcMSaAEGNPecQLpKzP-2pvYZK75T338ejUw/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="https://docs.google.com/presentation/d/15RbT0i14hY3cESxwR_GxW3p6vfEYfe_7-Ju_9MFzvNk/edit?usp=sharing" target="_blank" class="download-btn">
+  ⬇️ Download Design Draft 1 (PPTX)
+</a>
+</div>
 </div>
 
 <!-- FOOTER -->
