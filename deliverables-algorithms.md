@@ -99,6 +99,9 @@
       <a href="deliverables-mfcd.html">MFCD</a>
       <a href="deliverables-risk-matrix.html">Risk Matrix</a>
       <a href="deliverables-competition.html">Competition</a>
+      <a href="deliverables-user-roles.html">User Roles & Stories</a>
+      <a href="deliverables-ui-mockups.html">UI Mockups</a>
+      <a href="deliverables-algorithms.html">Algorithm Flows</a>
     </div>
   </div>
   <a href="glossary.html">Glossary</a>
@@ -109,18 +112,25 @@
 <div class="content-card">
   <p>This section explains the core logic and behavior behind Buddy Check’s interactive features. These flows are based on Design Iteration 3 and ensure timely intervention and personalized guidance.</p>
 
-  <h3>💨 Air Tank Logic</h3>
-  <p>If screen time exceeds the set threshold, the tank depletes. If depleted, app access is blocked unless refilled with a reflection.</p>
+  <p>The following diagrams outline the logic behind Buddy Check's behavior systems. These algorithms guide user interaction with blocking, initialization, and reflection features across different phases of the experience.</p>
 
-  <h3>🌙 Quiet Hours Trigger</h3>
-  <p>Quiet Hours are enforced between 10 PM and 7 AM by default. If the user attempts to open social media, a prompt interrupts the action and encourages reflection.</p>
+  <h3>⚙️ Initialization Algorithm</h3>
+  <p>This setup flow walks the user through the Buddy Check onboarding experience. It includes app introduction, goal setting, and adjusting default behavior before they begin using the platform.</p>
+  <img src="assets/Initialization_Algoritm.png" alt="Initialization Algorithm" style="max-width: 100%; border-radius: 10px; margin-bottom: 2rem;">
 
-  <h3>🧭 Weekly Reflection Prompts</h3>
-  <ul>
-    <li>“What helped you stay focused this week?”</li>
-    <li>“You activated Quiet Hours 6 out of 7 nights. Keep going!”</li>
-  </ul>
+  <h3>🚫 Blocking Algorithm</h3>
+  <p>This logic controls when access to apps or sites should be limited. Based on time of day, user settings, and Air Tank availability, the system determines whether to allow or block app usage.</p>
+  <img src="assets/Blocking_Algoritm.png" alt="Blocking Algorithm" style="max-width: 100%; border-radius: 10px; margin-bottom: 2rem;">
+
+  <h3>📈 Feedback Algorithm</h3>
+  <p>This reflection-based algorithm compiles user stats, checks for progress and behavior patterns, and prompts the user to reflect and update their goals accordingly.</p>
+  <img src="assets/Feedback_Algorithm.png" alt="Feedback Algorithm" style="max-width: 100%; border-radius: 10px; margin-bottom: 2rem;">
+
+  <h3>🔁 Overview Summary</h3>
+  <p>This diagram gives a simplified view of how the three major algorithm systems interact across Buddy Check's architecture.</p>
+  <img src="assets/Algoritm.png" alt="Overall Algorithm Structure" style="max-width: 100%; border-radius: 10px;">
 </div>
+
 
 <!-- FOOTER -->
 <div class="footer">
