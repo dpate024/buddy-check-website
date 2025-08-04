@@ -99,6 +99,9 @@
       <a href="deliverables-mfcd.html">MFCD</a>
       <a href="deliverables-risk-matrix.html">Risk Matrix</a>
       <a href="deliverables-competition.html">Competition</a>
+      <a href="deliverables-user-roles.html">User Roles & Stories</a>
+      <a href="deliverables-ui-mockups.html">UI Mockups</a>
+      <a href="deliverables-algorithms.html">Algorithm Flows</a>
     </div>
   </div>
   <a href="glossary.html">Glossary</a>
@@ -107,24 +110,26 @@
 
 <!-- MAIN CONTENT -->
 <div class="content-card">
-  <p>This deliverable outlines the core roles and user stories driving the Buddy Check experience. It reflects feedback and insights developed through Design Iteration 3.</p>
+  <p>This section outlines the primary user roles Buddy Check is built for, and pairs them with real-world user stories that inspired our features and design. These stories shaped functionality ranging from Air Tanks to Reflection prompts and partner accountability.</p>
 
-  <h3>👤 User Roles</h3>
-  <ul>
-    <li><strong>User:</strong> Sets personal goals and receives behavior-based guidance and reflection prompts.</li>
-    <li><strong>Partner:</strong> Supports another user by tracking weekly updates, offering encouragement, and joining shared goals.</li>
-    <li><strong>Developer:</strong> Manages backend logic, data tracking, and user input handling.</li>
-    <li><strong>Admin:</strong> Oversees platform policies, onboarding, and partner moderation.</li>
-  </ul>
+  <h3>👤 User</h3>
+  <p><strong>Role:</strong> Individuals looking to reduce screen time, set goals, and improve digital wellbeing using reflective, mindful tools.</p>
+  <p><strong>User Story:</strong> “As a User, I want to set a personal goal like better sleep so the app can track my progress and offer reflections.”</p>
+  <img src="assets/user-sleep-goal.png" alt="User Sleep Goal Screen" style="width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1); margin-bottom: 2rem;">
 
-  <h3>📝 Sample User Stories</h3>
-  <ul>
-    <li>As a User, I want to set a sleep goal so the app can suggest better usage patterns and reflection prompts.</li>
-    <li>As a Partner, I want to join a group challenge so I can build healthier habits with friends.</li>
-    <li>As a Developer, I want clear weekly metrics so I can evaluate feature effectiveness.</li>
-  </ul>
+  <h3>🤝 Partner</h3>
+  <p><strong>Role:</strong> A trusted friend or family member who offers support and motivation. Partners can be invited to help the user stay accountable.</p>
+  <p><strong>User Story:</strong> “As a Partner, I want to join a challenge with my friend so we can both improve our focus and stick to shared goals.”</p>
+  <img src="assets/partner-support.png" alt="Partner Motivation View" style="width: 100%; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+
+  <h3>👨‍💻 Developer</h3>
+  <p><strong>Role:</strong> Maintains and enhances platform functionality. Ensures data sync, Air Tank logic, and reflection algorithms work across platforms.</p>
+  <p><strong>User Story:</strong> “As a Developer, I want to log performance stats so we can measure usage trends and fine-tune future features.”</p>
+
+  <h3>🛡️ Admin</h3>
+  <p><strong>Role:</strong> Oversees platform-level control like partner moderation, abuse reporting, and backend configuration.</p>
+  <p><strong>User Story:</strong> “As an Admin, I want to audit partner history to ensure safety and prevent misuse.”</p>
 </div>
-
 <!-- FOOTER -->
 <div class="footer">
   © 2025 Buddy Check Project · Designed by CS 410 Team at ODU
